@@ -2,11 +2,14 @@
 int main()
 {
     int i,j;
-    for(i=1;i<=5;i++)
+    for(i=1;i<=7;i++)
     {
-        for(j=1;j<=7;j++)
+        for(j=i;j<=7;j++)
         {
-            
+            printf("%d",7-j);
         }
+printf("\n");
     }
+   
+    return 0;
 }
